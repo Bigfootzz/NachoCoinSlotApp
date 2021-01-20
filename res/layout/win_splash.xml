@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/win_splash" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/win_splash" android:layout_width="fill_parent" android:layout_height="130.0dip" android:layout_centerVertical="true">
+        <TextView android:textSize="35.0sp" android:textColor="#ff481c01" android:id="@id/win_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:text="YOU WIN!" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="30.0sp" android:textColor="#ff441901" android:id="@id/win_coins" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="200" android:layout_below="@id/win_text" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

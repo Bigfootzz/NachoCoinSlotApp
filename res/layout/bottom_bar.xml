@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="bottom|center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/settings" android:background="@drawable/settings" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="25.0dip" />
+    <RelativeLayout android:layout_width="150.0dip" android:layout_height="50.0dip" android:layout_marginBottom="20.0dip">
+        <ImageView android:id="@id/plusButton" android:background="@drawable/bet_btn" android:layout_width="150.0dip" android:layout_height="50.0dip" />
+        <TextView android:textSize="22.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:id="@id/bet" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="25.0dip" android:text="5" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <ImageButton android:id="@id/spinButton" android:background="@drawable/spin" android:layout_width="100.0dip" android:layout_height="100.0dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" />
+</LinearLayout>
